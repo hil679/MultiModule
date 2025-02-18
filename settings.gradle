@@ -1,0 +1,5 @@
+//global보다 모듈 안 settings.gradle 우선 순위가 더 높다
+rootProject.name = 'multimodule'
+
+include 'module-api'
+include 'module-common'
