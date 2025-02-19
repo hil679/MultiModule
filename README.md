@@ -19,10 +19,10 @@ to use jar file and upload it in operating server
     - naming
       - bootjar : xxx.jar
       - jar: xxx-plane.jar (it doesn't contain dependancy, only include classes and resources)
-        - cannot execute with java -jar command
-<br>
+        - cannot execute with java -jar command<br>
+
 - build command
-  ```aidl
+  ```
     ./gradlew clean :module-api:buildNeeded --stacktrace --info --refresh-dependencies -x test
   ```
   - :module-api:buildNeeded : module-api 빌드한다.
